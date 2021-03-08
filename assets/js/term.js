@@ -125,18 +125,18 @@ var config = {
         "github": "https://github.com/L0SER8228",
         "dev": "https://dev.to/l0ser8228",
         "youtube": "https://youtube.com/DevLackey",
-        "server": "https://discord.gg/NovaTechOrg"
+        "discord": "https://discord.gg/Bcxbqjp9uA"
       }
     },
     {
       "name": "sites",
-      "syntax": "sites [command]",
+      "syntax": "sites [deejay|tts|stereo]",
       "description": "allows access via url to all of my sites.",
       "exec": "sites",
       "data": {
-        "modern": ["https://deejaybot.tk", "Deejay Bot"],
-        "status": ["https://stereo.deejaybot.tk", "Deejay Stereo"],
-        "api": ["https://ttsbot.tk", "TTS Bot"]
+        "deejay": ["https://deejaybot.tk", "Deejay Bot"],
+        "stereo": ["https://stereo.deejaybot.tk", "Deejay Stereo"],
+        "tts": ["https://ttsbot.tk", "TTS Bot"]
       }
     },
     {
