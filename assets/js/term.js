@@ -62,16 +62,16 @@ $(window).on('load', function() {
 });
 
 var config = {
-  "title": "yh_007",
+  "title": "Yahia Hachemi",
   "prompt": "yh_007@kali:/ $ ",
   "commands": [
     {
       "name": "about",
-      "syntax": "about [l0ser|life|languages]",
+      "syntax": "about [intro|life|languages]",
       "description": "learn more about me",
       "exec": "about",
       "data": {
-        "l0ser": "Hi! I am Yahia, or you may know me as The Boaring Guy, I am 20 years old. I am a passionate front-end chill programmer who loves to code for fun. Also I make discord bots. :P \nIf you want to find out more about me, try `help about`.\n",
+        "intro": "Hi! I am Yahia, or you may know me as The Boaring Guy, I am 20 years old. I am a passionate front-end chill programmer who loves to code for fun. Also I make discord bots. :P \nIf you want to find out more about me, try `help about`.\n",
         "life": "I was born in October in Algeria. I spend my most of time on Discord.\n",
         "languages": "English,Arabic,Frensh"
       }
@@ -89,7 +89,7 @@ var config = {
       "description": "programing languages and tools in my backpack",
       "exec": "backpack",
       "data": {
-        "skills": "Skills and Tools:\n * Front-end: HTML, Javascript, CSS, Bootstrap, Tailwind\n * Back-end: Django, NodeJS, mongoDB, PHP\n * Full-stack: Google Cloud Platform, Amazon Web Services, Digital Ocean\n * Database: Mongodb, quick.db, enmap, sqlite3\n * IDE: Git, GitHub, VS Code, Glitch, Repl.it"
+        "skills": "Skills and Tools:\n * Front-end: HTML, Javascript, CSS, ReactJS\n * Back-end: NodeJS, Express, Firebase\n * Tools: Docker \n  * IDE: Git, GitHub, VS Code"
       }
     },
     {
@@ -98,7 +98,7 @@ var config = {
       "description": "display my contact information",
       "exec": "contact",
       "data": {
-        "discord": ["https://discord.com/users/668157292927254587", "L0SER#8228"],
+        "discord": ["https://discord.com/users/", "yh_007#9961"],
         "email": ["", "jy_hachemi@esi.dz"]
       }
     },
@@ -118,17 +118,17 @@ var config = {
     },
     {
       "name": "social",
-      "syntax": "social [github|dev|youtube|server]",
+      "syntax": "social [github|linkedin|youtube|server]",
       "description": "display my social links",
       "exec": "social",
       "data": {
-        "github": "https://github.com/L0SER8228",
-        "dev": "https://dev.to/l0ser8228",
-        "youtube": "https://youtube.com/DevLackey",
-        "discord": "https://discord.gg/Bcxbqjp9uA"
+        "github": "https://github.com/yh-007",
+        "dev": "https://www.linkedin.com/in/yahia-hachemi/",
+        "youtube": "",//https://youtube.com/DevLackey",
+        "discord": ""//https://discord.gg/Bcxbqjp9uA"
       }
     },
-    {
+   /* {
       "name": "sites",
       "syntax": "sites [deejay|tts|stereo]",
       "description": "allows access via url to all of my sites.",
@@ -138,7 +138,7 @@ var config = {
         "stereo": ["https://stereo.deejaybot.tk", "Deejay Stereo"],
         "tts": ["https://ttsbot.tk", "TTS Bot"]
       }
-    },
+    },*/
     {
       "name": "projects",
       "syntax": "projects [deejay|tts|stereo]",
