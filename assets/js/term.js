@@ -62,8 +62,8 @@ $(window).on('load', function() {
 });
 
 var config = {
-  "title": "L0SER#8228",
-  "prompt": "l0ser@ubuntu:/ $ ",
+  "title": "yh_007",
+  "prompt": "yh_007@kali:/ $ ",
   "commands": [
     {
       "name": "about",
@@ -71,9 +71,9 @@ var config = {
       "description": "learn more about me",
       "exec": "about",
       "data": {
-        "l0ser": "Hi! I am L0SER, or you may know me as The Boaring Guy, I am 18 years old. I am a passionate front-end chill programmer who loves to code for fun. Also I make discord bots. :P \nIf you want to find out more about me, try `help about`.\n",
-        "life": "I was born in July in India. I spend my most of time on Discord. I love to chat , make new friends. Currently contributing to github open sourced\n",
-        "languages": "My mother tongue is Bengali. Though I can speak Hindi fluently but cannot write. I can also read and write English. You can easily interact with me in Bengali, Hindi or English."
+        "l0ser": "Hi! I am Yahia, or you may know me as The Boaring Guy, I am 20 years old. I am a passionate front-end chill programmer who loves to code for fun. Also I make discord bots. :P \nIf you want to find out more about me, try `help about`.\n",
+        "life": "I was born in October in Algeria. I spend my most of time on Discord.\n",
+        "languages": "English,Arabic,Frensh"
       }
     },
     {
@@ -99,7 +99,7 @@ var config = {
       "exec": "contact",
       "data": {
         "discord": ["https://discord.com/users/668157292927254587", "L0SER#8228"],
-        "email": ["", "l0ser8228@gmail.com"]
+        "email": ["", "jy_hachemi@esi.dz"]
       }
     },
     {
